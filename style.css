@@ -90,7 +90,6 @@ nav ul li {
   justify-content: space-between;
   margin: 50px 30px;
   gap: 40px;
-  
 }
 .features-images {
   display: grid;
@@ -98,7 +97,7 @@ nav ul li {
   gap: 24px;
   width: 50%;
 }
-.features-explorer{
+.features-explorer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,114 +124,115 @@ nav ul li {
 }
 /* second features style */
 
-.second-features{
+.second-features {
   display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 55px;
-    margin-top: 100px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 55px;
+  margin-top: 100px;
 }
-.features-list{
+.features-list {
   margin-left: 100px;
 }
-.features-list-title{
+.features-list-title {
   width: 400px;
   margin-bottom: 24px;
   padding-left: 20px;
-  border-left: 8px solid #FF900E;
+  border-left: 8px solid #ff900e;
 }
-.features-list-title h1{
+.features-list-title h1 {
   font-size: 45px;
   font-weight: 700;
   color: #131313;
 }
-.features-list-title p{
+.features-list-title p {
   font-size: 16px;
   font-weight: 400;
   color: #727272;
-  }
-  .features-list-item{
-    padding: 30px;
-    box-shadow: 2px 2px 5px 5px rgb(21 21 21 / 8%);
-    margin: 20px 0 30px;
-    transition: all 0.5s ease-in;}
-
-    .features-list-item h2{
-      font-size: 20px;
-      font-weight: 700;
-      color: var(--dark-1);
-      margin-bottom: 10px;
-  }
-  .features-list-item:hover{
-    background-color: #08ff9c;
-    box-shadow: 5px 8px 9px 8px rgb(67 48 48 / 64%);}
-    .year button{
-      border: none;
-      background: #FF900E;
-      border-radius: 8px;
-      color: #ffff;
-      width: 300px;
-      height: 200px;
-      border-radius: 8px;
-  }
-  .features-img{
-    margin-right: 50px;
-  }
-
-  .year button h2{
-    font-weight: 700;
-font-size: 65px;
 }
-.year p{
+.features-list-item {
+  padding: 30px;
+  box-shadow: 2px 2px 5px 5px rgb(21 21 21 / 8%);
+  margin: 20px 0 30px;
+  transition: all 0.5s ease-in;
+}
+
+.features-list-item h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-1);
+  margin-bottom: 10px;
+}
+.features-list-item:hover {
+  background-color: #08ff9c;
+  box-shadow: 5px 8px 9px 8px rgb(67 48 48 / 64%);
+}
+.year button {
+  border: none;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffff;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+.features-img {
+  margin-right: 50px;
+}
+
+.year button h2 {
+  font-weight: 700;
+  font-size: 65px;
+}
+.year p {
   font-weight: 500;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.second-features-container{
+.second-features-container {
   padding-left: 40px;
-  width: 700px;}
-
-  .second-features-container img{
-    width: 100%;
-  }
-  .year{
-    position: relative;
-    bottom: 120px;
-    margin-left: -40px;
-  }
-
-  /* some fact css */
-  .some-fact{
-    text-align: left;
+  width: 700px;
 }
 
-.some-fact div{
+.second-features-container img {
+  width: 100%;
+}
+.year {
+  position: relative;
+  bottom: 120px;
+  margin-left: -40px;
+}
+
+/* some fact css */
+.some-fact {
+  text-align: left;
+}
+
+.some-fact div {
   width: 500px;
   margin-left: 100px;
 }
-.some-fact div h2{
+.some-fact div h2 {
   font-weight: 700;
-font-size: 45px;
-color: #131313;
+  font-size: 45px;
+  color: #131313;
   margin-bottom: 20px;
 }
-.some-fact div p{
+.some-fact div p {
   font-weight: 400;
-font-size: 16px;
-color: #727272;
+  font-size: 16px;
+  color: #727272;
 }
 /* our work style */
 
-.work-container{
+.work-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
   justify-items: center;
   margin: 100px 150px;
-
-
 }
-.work-container div{
+.work-container div {
   border: 2px solid #02eaff;
   width: 100%;
   height: 240px;
@@ -240,50 +240,93 @@ color: #727272;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   border-radius: 8px;
-  transition: all .5s linear ;}
-  .work-container div h4{
-    font-size: 45px;
-    font-weight: 600;
-    color: #424242;
+  transition: all 0.5s linear;
 }
-.work-container p{
+.work-container div h4 {
+  font-size: 45px;
   font-weight: 600;
-font-size: 20px;
-color: #727272;
+  color: #424242;
 }
-.work-container div:hover{
+.work-container p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+.work-container div:hover {
   background-color: #02eaff;
 }
 /* Our sponsor style */
-.sponsors-container{
+.sponsors-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 
-.sponsors-title{
+.sponsors-title {
   text-align: center;
   width: 542px;
 }
-.sponsors-title h2{
+.sponsors-title h2 {
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 25px;
 }
-.sponsors-title p{
+.sponsors-title p {
   font-size: 16px;
   font-weight: 400;
   color: var(--dark-2);
 }
-.sponsors-list{
+.sponsors-list {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
 }
-.sponsors-list img{
+.sponsors-list img {
   filter: grayscale(100%);
+}
+/* contract area styles */
+
+.contact-area {
+  text-align: left;
+  margin: 30px 50px;
+
+  border-radius: 20px;
+
+  background-color: #02b3ffdb;
+  padding: 30px 20px;
+}
+.contact-area h5{
+  font-size: 46px;
+  font-weight: 700;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+}
+.form input {
+  border: none;
+  background-color: #ffff;
+  height: 40px;
+  width: 40%;
+  padding: 20px 80px 20px 21px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+ 
+}
+.form textarea {
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 40%;
+}
+.form button{
+  position: relative;
+  right: 621px;
 }
