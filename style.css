@@ -123,3 +123,80 @@ nav ul li {
   padding: 20px;
   border-radius: 10px;
 }
+/* second features style */
+
+.second-features{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 55px;
+    margin-top: 100px;
+}
+.features-list{
+  margin-left: 100px;
+}
+.features-list-title{
+  width: 400px;
+  margin-bottom: 24px;
+  padding-left: 20px;
+  border-left: 8px solid #FF900E;
+}
+.features-list-title h1{
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+.features-list-title p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  }
+  .features-list-item{
+    padding: 30px;
+    box-shadow: 2px 2px 5px 5px rgb(21 21 21 / 8%);
+    margin: 20px 0 30px;
+    transition: all 0.5s ease-in;}
+
+    .features-list-item h2{
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--dark-1);
+      margin-bottom: 10px;
+  }
+  .features-list-item:hover{
+    background-color: #08ff9c;
+    box-shadow: 5px 8px 9px 8px rgb(67 48 48 / 64%);}
+    .year button{
+      border: none;
+      background: #FF900E;
+      border-radius: 8px;
+      color: #ffff;
+      width: 300px;
+      height: 200px;
+      border-radius: 8px;
+  }
+  .features-img{
+    margin-right: 50px;
+  }
+
+  .year button h2{
+    font-weight: 700;
+font-size: 65px;
+}
+.year p{
+  font-weight: 500;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.second-features-container{
+  padding-left: 40px;
+  width: 700px;}
+
+  .second-features-container img{
+    width: 100%;
+  }
+  .year{
+    position: relative;
+    bottom: 120px;
+    margin-left: -80px;
+  }
