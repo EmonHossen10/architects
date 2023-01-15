@@ -198,5 +198,26 @@ font-size: 65px;
   .year{
     position: relative;
     bottom: 120px;
-    margin-left: -80px;
+    margin-left: -40px;
   }
+
+  /* some fact css */
+  .some-fact{
+    text-align: left;
+}
+
+.some-fact div{
+  width: 500px;
+  margin-left: 100px;
+}
+.some-fact div h2{
+  font-weight: 700;
+font-size: 45px;
+color: #131313;
+  margin-bottom: 20px;
+}
+.some-fact div p{
+  font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
