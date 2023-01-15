@@ -221,3 +221,38 @@ color: #131313;
 font-size: 16px;
 color: #727272;
 }
+/* our work style */
+
+.work-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  justify-items: center;
+  margin: 100px 150px;
+
+
+}
+.work-container div{
+  border: 2px solid #02eaff;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 8px;
+  transition: all .5s linear ;}
+  .work-container div h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+.work-container p{
+  font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+.work-container div:hover{
+  background-color: #02eaff;
+}
