@@ -330,3 +330,85 @@ nav ul li {
   position: relative;
   right: 621px;
 }
+/* footer area styles */
+
+footer{
+  background-color: #FFF4E7;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-left: 135px;
+border-radius: 10px;
+margin-bottom: 216px;
+}
+footer h1{
+  font-weight: 400;
+font-size: 20px;
+color: #424242;
+}
+
+/*Responsive layout */
+@media screen and (max-width: 576px){
+  nav{
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav ul{
+    flex-direction: column;
+    
+}
+.banner {
+  flex-direction: column;
+  gap: 20px;
+
+
+}
+.banner-info , .primary-btn{
+  width: 200px;
+  margin-left: 100px;
+  
+}
+.primary-btn{
+  margin-top: 80px;
+
+}
+.banner-image {
+  width: 100%;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+
+}
+.features-images{
+  display: flex;
+  flex-direction: column;
+}
+.second-features{
+  display: flex;
+  flex-direction: column;
+}
+.second-features-container{
+  display: flex;
+  flex-direction: column;
+}
+.work-container{
+  display: flex;
+  flex-direction: column;
+}
+.sponsors-container{
+  display: flex;
+  flex-direction: column;
+}
+.sponsors-list{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+}
+}
