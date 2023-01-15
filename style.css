@@ -256,3 +256,34 @@ color: #727272;
 .work-container div:hover{
   background-color: #02eaff;
 }
+/* Our sponsor style */
+.sponsors-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.sponsors-title{
+  text-align: center;
+  width: 542px;
+}
+.sponsors-title h2{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.sponsors-title p{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-2);
+}
+.sponsors-list{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.sponsors-list img{
+  filter: grayscale(100%);
+}
